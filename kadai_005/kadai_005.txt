@@ -1,0 +1,26 @@
+PS C:\Users\ryoko\Desktop\Samurai> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\ryoko\Desktop\Samurai
+
+
+Mode                 LastWriteTime         Length Name                                        
+----                 -------------         ------ ----                                        
+d-----        2026/10/08      0:41                git_challenge                               
+
+
+PS C:\Users\ryoko\Desktop\Samurai> cd git_challenge
+PS C:\Users\ryoko\Desktop\Samurai\git_challenge> git init
+Initialized empty Git repository in C:/Users/ryoko/Desktop/Samurai/git_challenge/.git/
+PS C:\Users\ryoko\Desktop\Samurai\git_challenge> git add hello_world.txt  
+PS C:\Users\ryoko\Desktop\Samurai\git_challenge> git commit -m "1回目のコミット"
+[main (root-commit) 4ea6d9c] 1回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\ryoko\Desktop\Samurai\git_challenge> git add hello_world.txt 
+PS C:\Users\ryoko\Desktop\Samurai\git_challenge> git commit -m "2回目のコミット"
+[main ff045eb] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\ryoko\Desktop\Samurai\git_challenge> git log --oneline
+ff045eb (HEAD -> main) 2回目のコミット
+4ea6d9c 1回目のコミット
